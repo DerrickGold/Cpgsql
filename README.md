@@ -11,3 +11,7 @@ Assuming Postgresql is installed on the system, run (replacing the text in <> wi
     createdb <database name>
 
 Once the database is made, update the conenction details in cpgsql.c to match the values provided in the database setup above.
+
+## Building
+
+Type `make` from the project root directory. `libpq` will need to be installed.
